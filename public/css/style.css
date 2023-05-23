@@ -1,0 +1,113 @@
+            /* Additional custom styles can be added here */
+            body {
+                background-color: #f8f9fa;
+            }
+
+            .container {
+                max-width: 1500px;
+            }
+
+            .card {
+                margin-bottom: 1rem;
+            }
+
+            #chat-history {
+                max-height: 400px;
+                overflow-y: auto;
+            }
+
+            #user-input {
+                resize: none;
+                height: 120px;
+            }
+
+            .bot-icon {
+                font-size: 1.5rem;
+                margin-right: 0.5rem;
+            }
+
+            .user-message {
+                background-color: #f1f1f1;
+            }
+
+            .bot-message {
+                background-color: #d6edff;
+            }
+
+            /* Dark mode styles */
+            .dark-mode {
+                background-color: #000;
+                color: #fff;
+            }
+
+            .dark-mode .card-header {
+                background-color: #000;
+                color: #fff;
+            }
+
+            .dark-mode #chat-history,
+            .dark-mode .user-message,
+            .dark-mode .bot-message {
+                background-color: #111;
+                color: #fff;
+            }
+
+            .dark-mode #user-input {
+                background-color: #111;
+                color: #fff;
+            }
+
+            .dark-mode .bot-icon {
+                color: #d4af37;
+            }
+
+            .dark-mode .btn-primary {
+                background-color: #007bff;
+                border-color: #007bff;
+            }
+
+            .dark-mode .btn-primary:hover {
+                background-color: #000;
+                border-color: #000;
+            }
+
+            /* Code snippet styles */
+            .message pre {
+                margin: 0;
+                padding: 0.5rem;
+                border: 1px solid #dee2e6;
+                border-radius: 0.25rem;
+                white-space: pre-wrap;
+            }
+
+            .message.user-message pre {
+                background-color: #d4edda;
+            }
+
+            /* Chat history styles */
+            #chat-history .list-group-item {
+                border: none;
+                background-color: #f8f9fa;
+            }
+
+            #chat-history .list-group-item.user-message {
+                background-color: #d4edda;
+            }
+
+            #chat-history .list-group-item.bot-message {
+                background-color: #d6edff;
+            }
+
+            /* Dark mode chat history styles */
+            .dark-mode #chat-history .list-group-item {
+                background-color: #111;
+                color: #fff;
+            }
+
+            .dark-mode #chat-history .list-group-item.user-message {
+                background-color: #1a5316;
+            }
+
+            .dark-mode #chat-history .list-group-item.bot-message {
+                background-color: #0d4b80;
+            }
